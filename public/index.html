@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>String Cutting</title>
+</head>
+
+<body>
+
+    <h1>Enter A String</h1>
+
+    <h2>Entering a string below will return every third letter from the entered string that is at least 3 letters in length.</h2>
+
+    <h3>Example: POST {"string_to_cut": "iamyourlyftdriver"}, and the following will be returned: {"return_string": "muydv"}</h3>
+
+    <div class = "main">
+        <form action = "/test" method = "POST">
+            <div class = "input">
+                <label>{ "string_to_cut": </label>
+                <input id = "string_to_cut" name = "string_to_cut" />
+                <span>}</span>
+            </div>
+            <button type = "submit">Submit</button>
+            </form>
+    </div>
+    
+</body>
+</html>
