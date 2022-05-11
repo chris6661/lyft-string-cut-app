@@ -9,14 +9,17 @@ body {
 }
 
 h1 {
+    text-align: center;
     color: var(--pink);
 }
 
 h2 {
+    text-align: center;
     color: var(--pink);
 }
 
 h3 {
+    text-align: center;
     color: var(--pink);
 }
 
@@ -27,3 +30,19 @@ label {
 span {
     color: var(--white);
 }
+
+button {
+    background-color: var(--pink);
+    color: var(--white);
+    font-weight: bold;
+    justify-content: center;
+    display: block;
+    margin: 0 auto; 
+    border: none;
+}
+
+.main {
+    justify-content: center; 
+    display: flex;
+}
+
